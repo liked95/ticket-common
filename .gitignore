@@ -5,3 +5,4 @@ node_modules
 
 *.yaml
 *.lock
+package-lock.json
