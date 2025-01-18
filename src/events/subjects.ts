@@ -7,6 +7,8 @@ export enum Subjects {
   OrderCancelled = 'order:cancelled',
   
   ExpirationComplete = 'expiration:complete',
+  PaymentCreated = 'payment:created',
+  
   ReviewCreated = 'review:created',
-  PaymentCreated = 'payment:created'
+  ReviewUpdated = 'review:updated',
 }
