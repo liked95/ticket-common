@@ -7,6 +7,7 @@ export interface ReviewUpdatedEvent {
     ticketId: string;
     reviewerId: string;
     rating: number;
+    ratingDifferenceOnUpdate: number;
     content?: string;
   };
 }
