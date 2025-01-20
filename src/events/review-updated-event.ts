@@ -8,6 +8,5 @@ export interface ReviewUpdatedEvent {
     reviewerId: string;
     rating: number;
     content?: string;
-    version: number;
   };
 }
